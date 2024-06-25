@@ -1,0 +1,17 @@
+package repeticao;
+
+public class fors {
+public static void main(String[] args) {
+	/*
+	 A instrução for é outro tipo de loop em Java que permite repetir 
+	 um bloco de código um número determinado de vezes.
+
+	Aqui está a sintaxe básica de uma instrução for: 
+	  */
+	
+//	for (inicialização; condição; incremento/decremento) {
+	    // código a ser executado para cada iteração do loop
+//	}
+
+}
+}

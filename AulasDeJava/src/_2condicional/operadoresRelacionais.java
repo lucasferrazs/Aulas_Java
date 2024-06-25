@@ -1,0 +1,47 @@
+package _2condicional;
+
+public class operadoresRelacionais {
+	public static void main(String[] args) {
+/*
+Os operadores de comparação em Java são usados para comparar dois valores.
+retornando sempre true ou false , eles são essencialmente necessarios em 
+estruturas condicionais e de repetição 
+
+*/
+
+/*
+Igual a (==): Este operador verifica se os dois operandos são iguais. 
+Se forem iguais, o resultado da comparação é verdadeiro. 
+Caso contrário, é falso.
+*/
+	int a = 10;
+	int b = 20;
+	System.out.println(a == b); // Isso imprimirá 'false'
+/*
+Diferente (!=): Este operador verifica se os dois operandos são diferentes.
+Se forem diferentes, o resultado da comparação é verdadeiro. Caso contrário, 
+é falso.
+ */ 
+	int c = 10;
+	int d = 20;
+	System.out.println(c != d); // Isso imprimirá 'true'
+/*
+ Maior que (>): Este operador verifica se o operando da esquerda 
+ é maior que o operando da direita. Se for, o resultado da comparação 
+ é verdadeiro. Caso contrário, é falso. 
+ */
+	int f = 10;
+	int g = 20;
+	System.out.println(f > g); // Isso imprimirá 'false'
+	System.out.println(f >= g); 
+/*
+ Menor que (<): Este operador verifica se o operando da esquerda 
+ é menor que o operando da direita. Se for, o resultado da comparação 
+ é verdadeiro. Caso contrário, é falso.
+ */	
+	int h = 10;
+	int i = 20;
+	System.out.println(h < i); // Isso imprimirá 'true'
+	System.out.println(h <= i);
+}
+}

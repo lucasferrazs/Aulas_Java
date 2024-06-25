@@ -1,0 +1,31 @@
+package condicional;
+
+public class operadoresLogicos {
+	public static void main()
+	{
+/*
+	 Os operadores lógicos em Java são usados para conectar 
+	 duas ou mais expressões. Eles retornam um valor booleano 
+	 (true ou false) com base no resultado dessas expressões
+*/
+//E lógico (&&): Este operador retorna true se ambas as expressões forem verdadeiras.
+	int a = 10;
+	int b = 20;
+	boolean resultado = (a < b) && (b > a);
+	System.out.println(resultado); // Isso imprimirá 'true'
+	
+//OU lógico (||): Este operador retorna true se pelo menos uma das expressões for verdadeira.
+	
+	int c = 10;
+	int d = 20;
+	boolean resultado2 = (a > b) || (b > a);
+	System.out.println(resultado2); // Isso imprimirá 'true'
+
+	//NÃO lógico (!): Este operador inverte o valor da expressão. Se a expressão for 
+	//verdadeira, ele retorna false, e se a expressão for falsa, ele retorna true.
+	boolean verdadeiro = true;
+	boolean falso = !verdadeiro;
+	System.out.println(falso); // Isso imprimirá 'false'
+
+}
+}

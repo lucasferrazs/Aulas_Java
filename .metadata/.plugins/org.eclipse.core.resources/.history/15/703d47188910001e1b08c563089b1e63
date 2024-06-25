@@ -1,0 +1,28 @@
+package exercicios;
+
+public class exerciciosIFELSESWITCH {
+/*
+ Atividade 1 - IF/ELSE: "Qual é o maior?"
+
+Peça ao usuário para inserir dois números inteiros e use uma declaração if/else 
+para determinar e imprimir qual número é maior.
+
+Atividade 2 - IF/ELSE: "Aprovação escolar"
+
+Desenvolva um programa que recebe a nota de um aluno. Se a nota for maior ou igual a 70, 
+imprima "Aprovado". Se a nota for menor que 70, mas maior ou igual a 50, imprima 
+"Recuperação". Se a nota for menor que 50, imprima "Reprovado".
+
+Atividade 3 - IF/ELSE: "É par ou ímpar?"
+
+Peça ao usuário para inserir um número inteiro. Se o número for par, imprima 
+"O número é par". Se for ímpar, imprima "O número é ímpar".
+
+Atividade 4 - IF/ELSE: "Faixa Etária"
+
+Desenvolva um programa que pede ao usuário sua idade. Se a idade for 
+menor que 13, imprima "Criança". Se a idade for 13 ou mais, mas menos 
+que 20, imprima "Adolescente". Se a idade for 20 ou mais, mas menos 
+que 60, imprima "Adulto". Se a idade for 60 ou mais, imprima "Idoso". 
+ */
+}

@@ -1,0 +1,66 @@
+package orientacaoObjeto;
+
+public class Classes {
+	public void main(String[] args) {
+/*
+ Classes em Java
+
+Em Java, a programação orientada a objetos (OOP) é um paradigma de programação 
+que usa "objetos" para projetar aplicativos e programas de computador. Uma "classe" 
+é o elemento fundamental da OOP e pode ser entendida como um modelo ou um plano 
+para criar objetos.
+
+O que é uma classe?
+
+Uma classe é uma construção que é usada para criar instâncias de si mesma
+referidas como objetos da classe. Uma classe inclui:
+
+Campos (também conhecidos como atributos ou variáveis de instância): São 
+os dados que cada instância da classe mantém. Por exemplo, uma classe 
+Carro pode ter campos como cor, marca e velocidade.
+
+Métodos: São os comportamentos associados à classe. Por exemplo, a 
+classe Carro pode ter métodos como acelerar, frear e trocarMarcha.
+
+Aqui está um exemplo de uma classe Carro simples em Java: 
+ */
+
+	}
+	public class Carro {
+
+	    // Campos
+	    private String cor;
+	    private String marca;
+	    private int velocidade;
+
+	    // Construtor
+	    public Carro(String cor, String marca) {
+	        this.cor = cor;
+	        this.marca = marca;
+	        this.velocidade = 0;
+	    }
+
+	    // Métodos
+	    public void acelerar() {
+	        velocidade += 10;
+	    }
+
+	    public void frear() {
+	        velocidade -= 10;
+	        if (velocidade < 0) {
+	            velocidade = 0;
+	        }
+	    }
+
+	    public int getVelocidade() {
+	        return velocidade;
+	    }
+	}
+	/*
+Instanciando uma Classe
+
+Para criar um objeto (ou instância) de uma classe, usamos a 
+palavra-chave new. Por exemplo: 
+	 */
+
+}

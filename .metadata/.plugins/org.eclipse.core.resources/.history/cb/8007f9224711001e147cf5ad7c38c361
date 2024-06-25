@@ -1,0 +1,120 @@
+package roteiro;
+
+public class roteiroJava {
+	/*
+	1.Introdução à Programação Java (feito)
+
+	Entendendo o que é Java, sua história e por que é importante. (feito)
+
+	Instalação e configuração do ambiente de desenvolvimento Java (JDK, JRE, IDE como Eclipse ou IntelliJ IDEA). (feito)
+
+	Criando seu primeiro programa Java (Hello World).(feito)
+
+	Compreensão dos conceitos básicos da sintaxe Java.(feito)
+
+	/****************************************/
+/*
+	2. Fundamentos da Linguagem Java
+
+	Aprendendo sobre variáveis e tipos de dados em Java (feito).
+
+	Entendendo operadores em Java: aritméticos (feito). 
+
+	Trabalhando com strings (feito).
+
+	Aprendendo a controlar o fluxo do programa usando estruturas condicionais (if-else, switch) e loops (for, while, do-while).
+	operadores de atribuição, de comparação, lógicos.
+
+
+	/****************************************/
+/*
+	3. Orientação a Objetos em Java
+
+	Compreensão dos conceitos básicos de orientação a objetos: classes, objetos, herança, polimorfismo, encapsulamento e abstração.
+
+	Criando e usando classes e objetos em Java.
+
+	Entendendo e usando construtores.
+
+	Trabalhando com modificadores de acesso (public, private, protected) e modificadores não-acesso (static, final, abstract, synchronized).
+
+	Implementando herança e interfaces.
+
+	/****************************************/
+/*
+	4. Coleções e Exceções em Java
+
+	Trabalhando com arrays.
+
+	Usando as classes do Java Collections Framework (List, Set, Map).
+
+	Gerenciamento de exceções usando try, catch, finally, throw e throws.
+
+	/****************************************/
+/*
+	5. Java Avançado
+
+	Multithreading e concorrência.
+
+	Trabalhando com I/O (Input/Output): leitura e escrita de arquivos.
+
+	Networking em Java.
+
+	Desenvolvimento de GUIs (Graphic User Interfaces) com Swing e JavaFX.
+
+	Acessando e manipulando bancos de dados com JDBC.
+	/****************************************/
+/*
+	6. Conceitos Modernos de Java
+
+	Programação funcional com Java 8+ (streams, expressões lambda).
+
+	API de datas e horários do Java 8.
+
+	Módulos do Java 9+.
+
+	/****************************************/
+/*
+	7. Frameworks e Bibliotecas Java
+
+	Entendendo e usando o Spring Framework (Spring MVC, Spring Boot, Spring Security).
+
+	Aprendendo JPA/Hibernate para persistência de dados.
+
+	Testando seu código com JUnit e Mockito.
+
+	/****************************************/
+/*
+	8. Práticas de Desenvolvimento
+
+	Princípios SOLID.
+
+	Design Patterns (Padrões de Projeto).
+
+	TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
+
+	Integração contínua/Entrega contínua (CI/CD).
+
+	Práticas DevOps.
+
+	/****************************************/
+/*
+	9. Projetos Práticos
+
+	Desenvolver pequenos projetos para praticar cada conceito.
+
+	Desenvolver um projeto final que integre a maioria dos conceitos aprendidos.
+
+	Recursos de aprendizado
+
+	Livros: "Effective Java" por Joshua Bloch, "Java: A Beginner's Guide" por Herbert Schildt.
+
+	Cursos Online: Plataformas como Coursera, Udemy, Codecademy, Pluralsight oferecem muitos cursos de Java.
+
+	Documentação oficial: A documentação oficial da Oracle para Java é uma ótima fonte de
+	referência.
+
+	Prática: A prática é fundamental para aprender a programar. Sites como HackerRank, LeetCode, CodeSignal fornecem muitos problemas para resolver e praticar.
+
+	Lembre-se, a prática é a chave. Tente codificar um pouco todos os dias, mesmo que seja apenas por uma hora. Espero que este guia de estudos seja útil para você em sua jornada de aprendizado em Java!
+}*/

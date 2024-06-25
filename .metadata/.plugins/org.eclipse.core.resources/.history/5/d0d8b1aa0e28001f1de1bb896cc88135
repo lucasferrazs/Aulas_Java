@@ -1,0 +1,11 @@
+package _2estruturaDaAplicacaoFX;
+
+public class estrutura {
+/*
+ A estrutura de um projeto JavaFX geralmente segue o padrão Model-View-Controller 
+ (MVC), que divide o código em três unidades principais: Model, View e Controller. 
+ Aqui está um guia básico para estruturar um projeto JavaFX:
+ 
+ 
+ */
+}

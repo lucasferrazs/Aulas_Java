@@ -1,0 +1,76 @@
+package _2estruturaDaAplicacaoFX;
+
+
+/*
+ O ciclo de vida de uma aplicação JavaFX é composto por várias etapas 
+ que gerenciam a execução do aplicativo desde o seu início até o término. 
+ Aqui está um resumo das principais fases: 
+ 
+ 
+Inicialização (init): Esta é a primeira fase, onde o método init é chamado. 
+Aqui, você pode colocar código de inicialização que precisa ser executado antes 
+que a aplicação comece, como a configuração de variáveis ou a criação de recursos 
+que serão usados pela aplicação.
+
+Início (start): Após a inicialização, o método start é invocado. Este é o ponto de 
+entrada principal da sua aplicação JavaFX. Aqui, você deve começar a montar a cena 
+(Scene) e o palco (Stage) da sua aplicação, definindo elementos como painéis, 
+botões e outros componentes da interface gráfica.
+
+Execução: Durante a execução, a aplicação está ativa e interagindo com o usuário. 
+Eventos são processados, e a interface gráfica é atualizada conforme necessário.
+
+Parada (stop): Quando a aplicação está prestes a ser fechada, o método stop é chamado. 
+Este é o lugar para liberar quaisquer recursos e fazer a limpeza final antes que a aplicação seja encerrada.
+ */
+	
+	
+	import javafx.application.Application;
+	import javafx.scene.Scene;
+	import javafx.scene.control.Label;
+	import javafx.scene.layout.StackPane;
+	import javafx.stage.Stage;
+
+	public class Main extends Application {
+
+	    // Método init()
+	    @Override
+	    public void init() {
+	        System.out.println("Dentro do método init()");
+	        // Código de inicialização aqui
+	    }
+
+	    // Método start(), ponto de entrada principal
+	    @Override
+	    public void start(Stage primaryStage) {
+	        System.out.println("Dentro do método start()");
+
+	        // Criando um componente de interface (UI component)
+	        Label label = new Label("Olá, mundo do JavaFX!");
+
+	        // Preparando o layout
+	        StackPane root = new StackPane();
+	        root.getChildren().add(label);
+
+	        // Configurando a cena
+	        Scene scene = new Scene(root, 300, 250);
+
+	        // Configurando o palco
+	        primaryStage.setTitle("Exemplo JavaFX");
+	        primaryStage.setScene(scene);
+	        primaryStage.show();
+	    }
+
+	    // Método stop()
+	    @Override
+	    public void stop() {
+	        System.out.println("Dentro do método stop()");
+	        // Código de limpeza aqui
+	    }
+
+	    public static void main(String[] args) {
+	        launch(args);
+	    }
+	}
+
+

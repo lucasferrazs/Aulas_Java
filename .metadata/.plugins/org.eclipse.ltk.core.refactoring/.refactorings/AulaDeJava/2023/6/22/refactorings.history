@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;comeco&apos; to &apos;introducao&apos;&#x0D;&#x0A;- Original project: &apos;AulaDeJava&apos;&#x0D;&#x0A;- Original element: &apos;AulaDeJava/src/comeco&apos;&#x0D;&#x0A;- Renamed element: &apos;AulaDeJava/src/introducao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;comeco&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;comeco" name="introducao" qualified="false" references="true" stamp="1685623122919" textual="false" version="1.0"/>
+</session>
