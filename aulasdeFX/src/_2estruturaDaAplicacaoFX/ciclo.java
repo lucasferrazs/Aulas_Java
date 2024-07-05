@@ -25,7 +25,8 @@ O método start() é chamado após o método init() e é responsável por criar 
 É um bom lugar para criar a interface do usuário, adicionar nodes à cena, e configurar a janela.
 3. stop()
 
-O método stop() é chamado quando o aplicativo é fechado. Este método é usado para realizar tarefas de limpeza, como fechar conexões de banco de dados, liberar recursos, ou salvar dados.
+O método stop() é chamado quando o aplicativo é fechado. Este método é usado para realizar tarefas de limpeza, 
+como fechar conexões de banco de dados, liberar recursos, ou salvar dados.
 
 É chamado apenas uma vez, quando o aplicativo é fechado.
 É um bom lugar para realizar tarefas de limpeza e fechar recursos.
@@ -39,6 +40,9 @@ stop() (quando o aplicativo é fechado)
 
 
  */
+	
+	
+	
 	
 	public class MeuAplicativo extends Application {
 	    @Override

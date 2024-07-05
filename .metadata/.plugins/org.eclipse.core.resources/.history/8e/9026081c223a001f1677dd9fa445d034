@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+
+/* Estilo para o botão */
+.button {
+    -fx-background-color: #000000;
+    -fx-text-fill: #000000;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* Estilo para o botão quando hover */
+.button:hover {
+    -fx-background-color: #0069d9;
+}
+
+

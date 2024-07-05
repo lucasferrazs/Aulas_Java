@@ -1,6 +1,0 @@
-module aulasdeFX {
-	requires javafx.controls;
-	exports _2estruturaDaAplicacaoFX to javafx.graphics;
-	opens application to javafx.graphics, javafx.fxml;
-	
-}

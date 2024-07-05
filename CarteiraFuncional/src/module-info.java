@@ -1,4 +1,4 @@
-module CarteiraFuncional {
+module nomeProjeto {
 	requires javafx.controls;
 	
 	opens application to javafx.graphics, javafx.fxml;

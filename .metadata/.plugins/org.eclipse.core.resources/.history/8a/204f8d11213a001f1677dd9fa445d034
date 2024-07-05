@@ -1,0 +1,18 @@
+package _3nodes;
+
+public class EstilizandoCss {
+/*
+ Estilizar Nós com CSS em JavaFX
+
+Em JavaFX, você pode estilizar nós usando CSS, o que permite separar a lógica de apresentação da lógica de negócios. Isso torna mais fácil manter e atualizar a aparência da sua aplicação.
+
+Como usar CSS em JavaFX
+
+Para usar CSS em JavaFX, você precisa seguir os seguintes passos:
+
+Criar um arquivo CSS que contenha as regras de estilo para os nós.
+Adicionar o arquivo CSS à sua aplicação JavaFX.
+Atribuir IDs ou classes CSS aos nós que você deseja estilizar.
+
+ */
+}

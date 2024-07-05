@@ -80,7 +80,7 @@ Tópico 1: Introdução ao JavaFX
 	Tipos de Nodes: Label, Button, TextField, TextArea, etc.
 	Propriedades e métodos comuns dos Nodes: texto, cor, tamanho, posição, etc.
 	Adicionar e remover Nodes da cena
-	Estilizar Nodes com CSS
+	Estilizar Nodes com CSS (feito)
 	Tópico 4: Layout e posicionamento
 
 	Tipos de layouts: BorderPane, StackPane, FlowPane, GridPane, etc.

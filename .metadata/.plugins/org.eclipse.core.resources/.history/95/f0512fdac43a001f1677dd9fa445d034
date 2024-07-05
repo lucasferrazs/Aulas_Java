@@ -1,0 +1,110 @@
+/* Estilo para o botão */
+.button {
+    -fx-background-color: #000000; /*cor de fundo*/
+    -fx-text-fill: #ffffff; /*cor do texto*/
+    -fx-font-size: 16px; /*tamanho do texto*/
+    -fx-padding: 10px; /*espaço  dentro do botão*/
+    -fx-border-radius: 5px; /*arredondamento das bordas*/
+    -fx-cursor: hand; 
+ /*
+A propriedade -fx-cursor: hand; é uma propriedade CSS específica do JavaFX 
+que define o cursor do mouse para um elemento gráfico.
+
+No caso específico, -fx-cursor: hand; define o cursor do mouse como uma 
+"mão" (ou "hand" em inglês) quando o usuário passa o mouse sobre 
+o elemento gráfico que tem essa propriedade aplicada.
+
+Isso é comummente usado em botões, links e outros elementos que 
+devem ser clicáveis, para indicar ao usuário que ele pode interagir com o elemento.
+
+Aqui estão algumas outras opções comuns para a propriedade -fx-cursor:
+
+-fx-cursor: default; - Define o cursor padrão do sistema.
+
+-fx-cursor: cross; - Define o cursor como uma cruz.
+
+-fx-cursor: ew-resize; - Define o cursor como uma seta horizontal, 
+indicando que o elemento pode ser redimensionado horizontalmente.
+
+-fx-cursor: ns-resize; - Define o cursor como uma seta vertical, 
+indicando que o elemento pode ser redimensionado verticalmente.
+
+-fx-cursor: nw-resize; - Define o cursor como uma seta diagonal, 
+indicando que o elemento pode ser redimensionado diagonalmente.
+
+-fx-cursor: ne-resize; - Define o cursor como uma seta diagonal, 
+indicando que o elemento pode ser redimensionado diagonalmente.
+
+-fx-cursor: sw-resize; - Define o cursor como uma seta diagonal, 
+indicando que o elemento pode ser redimensionado diagonalmente.
+
+-fx-cursor: se-resize; - Define o cursor como uma seta diagonal, 
+indicando que o elemento pode ser redimensionado diagonalmente.
+
+-fx-cursor: wait; - Define o cursor como uma hora, 
+indicando que o sistema está ocupado.
+
+-fx-cursor: text; - Define o cursor como um cursor de texto, 
+indicando que o usuário pode inserir texto.
+
+-fx-cursor: none; - Define o cursor como invisível.*/
+}
+
+
+/*exemplo de algumas outras estilizações */
+
+/*Exemplo de Label */
+.label {
+    -fx-font-size: 24px; /*tamanho da fonte (caracteres)*/
+    -fx-font-weight: bold;/*largura da fonte */
+    -fx-text-fill: #333333; /*Cor do texto */
+}
+
+/*Exemplo de TextField*/
+.text-field {
+    -fx-background-color: #f0f0f0; /*cor de fundo*/
+    -fx-border-color: #cccccc; /*cor da borda */
+    -fx-border-width: 1px; /*largura da bordaa*/
+    -fx-padding: 5px; /*espaço dentro do própio campo*/
+}
+
+/*Exemplo de Pane*/
+.pane {
+    -fx-background-color: #ffffff; /* cor de fundo*/
+    -fx-border-color: #dddddd; /*cor da borda*/
+    -fx-border-width: 1px; /*largura da borda*/
+    -fx-padding: 10px; /*espaço dentro do própio campo*/
+}
+
+
+/*Exemplo de posicionamento de nodes usando css*/
+
+
+.meunode {
+    -fx-layout-x: 100; /* define a posição x do Node em 100 pixels */
+     -fx-layout-y: 200; /* define a posição y do Node em 200 pixels */
+
+/*
+Você também pode usar as propriedades -fx-translate-x e -fx-translate-y para 
+definir a posição do Node em relação à sua própria posição atual.
+*/
+
+    -fx-translate-x: 50; /* move o Node 50 pixels para a direita */
+    -fx-translate-y: -20; /* move o Node 20 pixels para cima */
+    
+/*
+você também pode usar as propriedades -fx-anchor-pane-left, -fx-anchor-pane-right, 
+-fx-anchor-pane-top, e -fx-anchor-pane-bottom para ancorar o Node a 
+uma borda específica do seu pai.
+*/
+    
+}
+
+
+
+
+
+/* Estilo para o botão quando hover */
+.button:hover {
+    -fx-background-color: #0069d9;
+}

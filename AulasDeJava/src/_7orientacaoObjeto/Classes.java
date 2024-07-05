@@ -9,6 +9,9 @@ public class Classes {
 		meuCarro.acelerar();
 		System.out.println(meuCarro.getVelocidade());
 		
+		Carro meuCarro2 = new Carro("Azul", "Subaru");
+		
+		
 		
 		/*
 		System.out.println(meuCarro.marca);

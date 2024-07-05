@@ -4,41 +4,68 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class OperacoesDB {
-    public void select() {
-        String sql = "SELECT * FROM usuario";
-        try (
-        	// estabeleca a conexão do banco de dados	
-        	 Connection conn = ConexaoDB.getConexao();
-        	// prepara os o comando sql a ser executado	
-             PreparedStatement stmt = conn.prepareStatement(sql);
-        	// rs recebe a execução da query	
-             ResultSet rs = stmt.executeQuery()) {
+	public List<String[]> select() {
+	    String sql = "SELECT * FROM conta";
+	    List<String[]> resultados = new ArrayList<>();
+	    try (
+	        // estabeleca a conexão do banco de dados	
+	        Connection conn = ConexaoDB.getConexao();
+	        // prepara os o comando sql a ser executado	
+	        PreparedStatement stmt = conn.prepareStatement(sql);
+	        // rs recebe a execução da query	
+	        ResultSet rs = stmt.executeQuery()) {
 
-            while (rs.next()) {
-                // Processa os resultados
-            	String nomef = rs.getString("nome");
-            	String email = rs.getString("email");
-            	
-            	System.out.println("deu boa " + nomef +" e o email é " + email);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
+	        while (rs.next()) {
+	            // Processa os resultados
+	            String titular = rs.getString("titular");
+	            String valor = rs.getString("saldo");
+	            resultados.add(new String[]{titular, valor});
+	        }
+	    } catch (SQLException e) {
+	        e.printStackTrace();
+	    }
+	    return resultados;
+	}
 
-    public void insert(String nome, String email) {
-        String sql = "INSERT INTO usuario (nome,email) VALUES (?,?)";
+    public void insertConta(String nome, double email) {
+        String sql = "INSERT INTO conta (titular,saldo) VALUES (?,?)";
         try (Connection conn = ConexaoDB.getConexao();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, nome);
-            stmt.setString(2, email);
+            stmt.setDouble(2, email);
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
             
         }
+    }
+        public void insertRceita(double valor, int fk) {
+            String sql = "INSERT INTO receita (valor,fk_conta) VALUES (?,?)";
+            try (Connection conn = ConexaoDB.getConexao();
+                 PreparedStatement stmt = conn.prepareStatement(sql)) {
+                stmt.setDouble(1, valor);
+                stmt.setInt(2, fk);
+                stmt.executeUpdate();
+            } catch (SQLException e) {
+                e.printStackTrace();
+                
+            }
+        }
+            public void insertDespesa(double valor, int fk) {
+                String sql = "INSERT INTO despesa (valor,fk_conta) VALUES (?,?)";
+                try (Connection conn = ConexaoDB.getConexao();
+                     PreparedStatement stmt = conn.prepareStatement(sql)) {
+                    stmt.setDouble(1, valor);
+                    stmt.setInt(2, fk);
+                    stmt.executeUpdate();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                    
+                }
     }
     
     public void delete (int iddeletado){

@@ -11,7 +11,8 @@ JavaFX:
 Permite o uso de FXML, que é uma linguagem de marcação baseada em XML para definir a 
 estrutura da interface do usuário.
 Suporta estilos CSS para personalizar a aparência dos componentes da GUI.
-Oferece recursos avançados como animações, efeitos gráficos e a capacidade de incorporar multimídia.
+Oferece recursos avançados como animações, efeitos gráficos e a capacidade de incorporar 
+multimídia.
 Utiliza o motor de renderização Prism, que é mais eficiente e permite uma melhor 
 performance para interfaces ricas e complexas.
 

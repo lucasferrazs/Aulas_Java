@@ -27,8 +27,8 @@ package _3nodes;
 	        root.getChildren().add(label);
 
 	        // Criar um TextField
-	        TextField textField = new TextField();
-	        root.getChildren().add(textField);
+	        TextField campoTexto = new TextField();
+	        root.getChildren().add(campoTexto);
 
 	        // Criar um CheckBox
 	        CheckBox checkBox = new CheckBox("Aceito os termos de uso");
@@ -47,9 +47,10 @@ package _3nodes;
 	        // Criar um Button
 	        Button button = new Button("Enviar");
 	        button.setOnAction(e -> {
-	            System.out.println("Nome: " + textField.getText());
+	            System.out.println("Nome: " + campoTexto.getText());
 	            System.out.println("Aceito termos: " + checkBox.isSelected());
-	            System.out.println("Opção selecionada: " + ((Labeled) radioGroup.getSelectedToggle()).getText());
+	            System.out.println("Opção selecionada: "
+	            + ((Labeled) radioGroup.getSelectedToggle()).getText());
 	        });
 	        root.getChildren().add(button);
 
@@ -66,53 +67,61 @@ package _3nodes;
 	}
 	
 /*
- No JavaFX, um Node é um elemento gráfico que pode ser adicionado à cena. Existem vários tipos de Nodes, cada um com suas próprias características e propósitos. Aqui estão alguns dos principais tipos de Nodes:
+ No JavaFX, um Node é um elemento gráfico que pode ser adicionado à 
+ cena. Existem vários tipos de Nodes, cada um com suas próprias 
+ características e propósitos. Aqui estão alguns dos principais tipos de Nodes:
 
 1. Label
-
 Um Label é um Node que exibe texto. Ele é usado para exibir informações para o usuário.
 
 Propriedades: text, font, fontSize, fontWeight, etc.
 Métodos: setText(), getText(), setFont(), etc.
-2. Button
 
-Um Button é um Node que permite ao usuário interagir com o aplicativo. Ele pode ser usado para executar ações quando clicado.
+2. Button
+Um Button é um Node que permite ao usuário interagir com o aplicativo. Ele pode ser usado 
+para executar ações quando clicado.
 
 Propriedades: text, graphic, onPressed, onReleased, etc.
 Métodos: setText(), setGraphic(), setOnAction(), etc.
-3. TextField
 
-Um TextField é um Node que permite ao usuário inserir texto. Ele é usado para coletar informações do usuário.
+3. TextField
+Um TextField é um Node que permite ao usuário inserir texto. Ele é usado para coletar 
+informações do usuário.
 
 Propriedades: text, promptText, editable, etc.
 Métodos: setText(), getText(), setPromptText(), etc.
-4. TextArea
 
-Um TextArea é um Node que permite ao usuário inserir texto em múltiplas linhas. Ele é usado para coletar informações do usuário em forma de texto longo.
+4. TextArea
+Um TextArea é um Node que permite ao usuário inserir texto em múltiplas linhas. Ele 
+é usado para coletar informações do usuário em forma de texto longo.
 
 Propriedades: text, promptText, editable, wrapText, etc.
 Métodos: setText(), getText(), setPromptText(), etc.
 5. ImageView
 
-Um ImageView é um Node que exibe uma imagem. Ele é usado para exibir imagens em um aplicativo.
+Um ImageView é um Node que exibe uma imagem. Ele é usado para exibir imagens 
+em um aplicativo.
 
 Propriedades: image, fitWidth, fitHeight, etc.
 Métodos: setImage(), getImage(), setFitWidth(), etc.
 6. CheckBox
 
-Um CheckBox é um Node que permite ao usuário selecionar opções. Ele é usado para coletar informações do usuário em forma de seleção.
+Um CheckBox é um Node que permite ao usuário selecionar opções. Ele é usado para coletar 
+informações do usuário em forma de seleção.
 
 Propriedades: text, selected, indeterminate, etc.
 Métodos: setSelected(), isSelected(), setIndeterminate(), etc.
 7. RadioButton
 
-Um RadioButton é um Node que permite ao usuário selecionar uma opção entre várias. Ele é usado para coletar informações do usuário em forma de seleção.
+Um RadioButton é um Node que permite ao usuário selecionar uma opção entre várias. 
+Ele é usado para coletar informações do usuário em forma de seleção.
 
 Propriedades: text, selected, toggleGroup, etc.
 Métodos: setSelected(), isSelected(), setToggleGroup(), etc.
 8. ComboBox
 
-Um ComboBox é um Node que permite ao usuário selecionar uma opção entre várias. Ele é usado para coletar informações do usuário em forma de seleção.
+Um ComboBox é um Node que permite ao usuário selecionar uma opção entre várias. 
+Ele é usado para coletar informações do usuário em forma de seleção.
 
 Propriedades: items, value, editable, etc.
 Métodos: getItems(), getValue(), setEditable(), etc.

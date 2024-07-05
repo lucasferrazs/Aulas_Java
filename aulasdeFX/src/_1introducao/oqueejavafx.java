@@ -20,8 +20,8 @@ diferentes dispositivos, facilitando o desenvolvimento para desktop e dispositiv
 Além disso, possui integração com ferramentas de criação de terceiros, como Adobe Photoshop 
 e Illustrator, permitindo a importação de gráficos avançados diretamente para as aplicações JavaFX
 
-Se você estiver interessado em desenvolver com JavaFX, pode encontrar plugins e ferramentas para facilitar 
-o processo, além de uma linguagem de script declarativa e orientada a objetos chamada JavaFX Script, 
-que simplifica o desenvolvimento de interfaces gráficas de usuário (GUIs)
+Se você estiver interessado em desenvolver com JavaFX, pode encontrar plugins e ferramentas para 
+facilitar o processo, além de uma linguagem de script declarativa e orientada a objetos 
+chamada JavaFX Script, que simplifica o desenvolvimento de interfaces gráficas de usuário (GUIs)
   */
 }
