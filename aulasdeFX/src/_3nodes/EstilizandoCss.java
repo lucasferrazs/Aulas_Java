@@ -28,16 +28,17 @@ Atribuir IDs ou classes CSS aos nós que você deseja estilizar.
 	    public void start(Stage primaryStage) {
 	        StackPane root = new StackPane();
 	        Scene scene = new Scene(root, 300, 250);
-
+	        // Adicionar o arquivo CSS à cena
+	        scene.getStylesheets().add(getClass().getResource("Botao.css").toExternalForm());
+	     
 	        // Criar um botão e atribuir a classe CSS
 	        Button button = new Button("Clique em mim!");
-	        button.getStyleClass().add("button");
+	        button.getStyleClass().add("botaoo");
 
 	        root.getChildren().add(button);
 
-	        // Adicionar o arquivo CSS à cena
-	        scene.getStylesheets().add(getClass().getResource("Botao.css").toExternalForm());
 	        //scene.getStylesheets().add("Botao.css");
+	     
 	        //root.getStylesheets().add(getClass().getResource("Botao.css").toExternalForm());
 
 	        primaryStage.setTitle("Estilizar Botão com CSS");

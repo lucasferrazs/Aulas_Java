@@ -2,6 +2,7 @@
 //org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
 eclipse.preferences.version=1
+editors=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<editors>\r\n<descriptor class\="org.eclipse.wst.sse.ui.StructuredTextEditor" id\="org.eclipse.wst.css.core.csssource.source" image\="$nl$/icons/full/obj16/sourceEditor.gif" internal\="true" label\="CSS Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.wst.css.ui"/>\r\n<descriptor class\="org.eclipse.wst.sse.ui.StructuredTextEditor" id\="org.eclipse.jst.jsp.core.cssjspsource.source" image\="$nl$/icons//full/obj16/sourceEditor.gif" internal\="true" label\="CSS JSP Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.jst.jsp.ui"/>\r\n<descriptor class\="org.eclipse.fx.ide.css.cssext.ui.CssExtDslExecutableExtensionFactory\:org.eclipse.xtext.ui.editor.XtextEditor" id\="org.eclipse.fx.ide.css.cssext.CssExtDsl" internal\="true" label\="CSS Extension Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.fx.ide.css.cssext.ui"/>\r\n</editors>
 org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|Consolas|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
 org.eclipse.debug.ui.DetailPaneFont=1|Consolas|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
 org.eclipse.debug.ui.MemoryViewTableFont=1|Consolas|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
@@ -25,4 +26,5 @@ org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=255,255,255
 org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=242,242,242
 org.eclipse.wst.sse.ui.textfont=1|Consolas|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
 org.eclipse.xtend.ui.editors.textfont=1|Consolas|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+resourcetypes=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<editors version\="3.1">\r\n<info contentType\="userCreated1720458073076">\r\n<editor id\="org.eclipse.wst.css.core.csssource.source"/>\r\n<editor id\="org.eclipse.jst.jsp.core.cssjspsource.source"/>\r\n<editor id\="org.eclipse.fx.ide.css.cssext.CssExtDsl"/>\r\n</info>\r\n</editors>
 terminal.views.view.font.definition=1|Consolas|8.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;

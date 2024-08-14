@@ -1,9 +1,0 @@
-package _3nodes;
-
-public class Remover {
-/*
- Remover Nós da Cena JavaFX
-
- Para remover um nó da cena JavaFX, você pode usar o método remove() da lista observável retornada por getChildren(). 
- */
-}

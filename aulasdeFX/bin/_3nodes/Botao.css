@@ -1,5 +1,5 @@
 /* Estilo para o botão */
-.button {
+.botao {
     -fx-background-color: #000000; /*cor de fundo*/
     -fx-text-fill: #ffffff; /*cor do texto*/
     -fx-font-size: 16px; /*tamanho do texto*/

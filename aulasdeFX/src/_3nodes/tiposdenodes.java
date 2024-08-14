@@ -23,8 +23,8 @@ package _3nodes;
 	        root.setAlignment(Pos.CENTER);
 
 	        // Criar um Label
-	        Label label = new Label("Digite seu nome:");
-	        root.getChildren().add(label);
+	        Label mensagem = new Label("Digite seu nome:");
+	        root.getChildren().add(mensagem);
 
 	        // Criar um TextField
 	        TextField campoTexto = new TextField();
