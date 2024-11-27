@@ -2,7 +2,7 @@
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/AulasDeJava/src/_4funcao/funcao.java"/>
+        <listEntry value="/AulaDeJava/src/_4funcao/funcao.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -13,5 +13,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="_4funcao.funcao"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="AulaDeJava"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AulasDeJava"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AulaDeJava"/>
 </launchConfiguration>

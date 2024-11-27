@@ -1,24 +1,10 @@
-INDEX VERSION 1.132+D:\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-1373548247.index
-3876404232.index
-2573389332.index
-752896471.index
-433144569.index
-3813381967.index
-2237032950.index
-710428092.index
-98789253.index
+INDEX VERSION 1.134+C:\Users\lucas\OneDrive\Área de Trabalho\aulas\Nova pasta\Aulas_Java\.metadata\.plugins\org.eclipse.jdt.core
+3779364521.index
 1865797976.index
-3327866872.index
 2222037105.index
 226953908.index
-1446348145.index
-743989915.index
-489018810.index
-1400036951.index
-602802583.index
-3729159026.index
-2670892182.index
-2912972933.index
-1527878788.index
-3927496509.index
+1184132537.index
+1397637360.index
+752896471.index
+1134411801.index
+3876404232.index

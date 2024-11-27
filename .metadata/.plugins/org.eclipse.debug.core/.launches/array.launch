@@ -2,7 +2,7 @@
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/AulasDeJava/src/_5array/array.java"/>
+        <listEntry value="/AulaDeJava/src/_5array/array.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -18,6 +18,6 @@
         <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17&quot; path=&quot;4&quot; type=&quot;4&quot;/&gt;&#13;&#10;"/>
     </listAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="AulaDeJava"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AulasDeJava"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AulaDeJava"/>
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="--module-path &quot;D:\Javafx\javafx-sdk-21.0.2\lib&quot; --add --module-path"/>
 </launchConfiguration>
