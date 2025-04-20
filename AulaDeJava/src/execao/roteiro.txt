@@ -1,0 +1,86 @@
+Módulo 1: Fundamentos do Tratamento de Exceções
+Objetivo: Compreender a base teórica e prática do tratamento de exceções.
+
+O que são exceções?
+
+Definição e conceito.
+
+Diferença entre erros e exceções.
+
+Hierarquia de Exceções em Java
+
+Throwable, Error, e Exception.
+
+Diferença entre exceções verificadas e não verificadas.
+
+Palavras-chave básicas
+
+try, catch, finally.
+
+Módulo 2: Manipulação de Exceções na Prática
+Objetivo: Aprender a identificar e capturar exceções corretamente.
+
+Criando blocos try-catch
+
+Estrutura básica.
+
+Lidando com múltiplos tipos de exceções.
+
+Bloco finally
+
+Garantir a execução de código independente do resultado.
+
+Melhores práticas
+
+Evitar capturar exceções genéricas como Exception sem necessidade.
+
+Personalizar mensagens de erro.
+
+Módulo 3: Lançando e Propagando Exceções
+Objetivo: Desenvolver habilidades para criar e lançar exceções customizadas.
+
+Usando throw
+
+Lançando exceções manualmente.
+
+Declarando exceções com throws
+
+Propagação de exceções verificadas.
+
+Criando exceções personalizadas
+
+Definindo novas classes que estendem Exception ou RuntimeException.
+
+Módulo 4: Exceções Avançadas e Boas Práticas
+Objetivo: Aprofundar-se em técnicas avançadas para um código robusto.
+
+Multi-catch e recursos modernos
+
+Uso de multi-catch para tratar várias exceções.
+
+Introdução ao try-with-resources (Java 7+).
+
+Logging e monitoramento
+
+Ferramentas como Logger para registrar exceções.
+
+Boas práticas de design
+
+Princípios SOLID e tratamento de exceções.
+
+Evitar código "silencioso" (exceções não tratadas).
+
+Módulo 5: Projetos Práticos
+Objetivo: Consolidar o aprendizado por meio de exemplos do mundo real.
+
+Projeto 1: Validação de Entrada de Dados
+
+Criar um programa que valida dados de usuário, tratando exceções como NumberFormatException.
+
+Projeto 2: Sistema de Leitura de Arquivos
+
+Implementar um sistema que lê arquivos e lida com exceções como IOException.
+
+Projeto 3: Banco de Dados Simulado
+
+Criar um CRUD simples, tratando exceções como SQLException.

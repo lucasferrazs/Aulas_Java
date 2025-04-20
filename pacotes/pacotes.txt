@@ -1,0 +1,37 @@
+Estrutura de Pacotes
+A estrutura dos pacotes geralmente segue a arquitetura do sistema. Uma boa prática é basear-se na abordagem em camadas (layers), mas isso pode variar conforme o design.
+
+Um exemplo comum pode ser:
+
+Pacote principal (root package):
+
+Geralmente inicia com o domínio da empresa ou organização (em ordem inversa), seguido pelo nome do projeto ou sistema.
+
+Exemplo: com.empresa.projeto.
+
+Pacotes funcionais: Divididos com base em camadas ou responsabilidades específicas:
+
+controller: Contém classes relacionadas aos controladores, que lidam com as requisições HTTP, por exemplo.
+
+Exemplo: com.empresa.projeto.controller.
+
+service: Armazena as classes que encapsulam regras de negócio e lógicas de aplicação.
+
+Exemplo: com.empresa.projeto.service.
+
+repository ou dao: Contém as classes responsáveis pelo acesso e manipulação de dados (DAO - Data Access Object)
+(Local onde fica os getters and setters).
+
+Exemplo: com.empresa.projeto.repository.
+
+model: Contém as classes que representam os objetos do domínio, como entidades ou DTOs (Data Transfer Objects).
+
+Exemplo: com.empresa.projeto.model.
+
+util ou common: Pacote de utilitários ou classes que podem ser usadas em várias partes do sistema.
+
+Exemplo: com.empresa.projeto.util.
+
+Pacotes modulares (quando aplicável): Para sistemas mais complexos, pode-se dividir os pacotes por módulos ou funcionalidades:
+
+Exemplo: com.empresa.projeto.modulo1.controller, com.empresa.projeto.modulo2.service.

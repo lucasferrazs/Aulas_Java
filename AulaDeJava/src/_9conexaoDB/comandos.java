@@ -16,8 +16,6 @@ public static void main(String[] args) throws SQLException {
 	
 	
 	//comandos.select();
-
-	
 	//comandos.delete(1);
 	//comandos.update("deu booooooooooaaaaaaaaaaaaaaaa",2);
 	

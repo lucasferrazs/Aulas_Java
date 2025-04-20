@@ -2,5 +2,17 @@
 <libraryInfos>
     <libraryInfo home="C:\Users\Lucas\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre" version="17.0.7"/>
     <libraryInfo home="C:\Program Files\Java\jdk-23" version="23.0.1"/>
+    <libraryInfo home="C:\Program Files\Java\jdk-21" version="21.0.7"/>
+    <libraryInfo home="C:\Program Files\Java\jdk-21\bin" version="21.0.7">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
     <libraryInfo home="C:\Users\Lucas\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502" version="17.0.7"/>
 </libraryInfos>

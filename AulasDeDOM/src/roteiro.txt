@@ -1,0 +1,61 @@
+2. Configuração do Ambiente
+Objetivo: Configurar o ambiente de desenvolvimento para trabalhar com DOM.
+Tópicos:
+Instalar o Eclipse IDE (ou outra IDE de sua escolha).
+Criar um novo projeto Java.
+Adicionar as bibliotecas necessárias (DOM é parte da biblioteca padrão do Java).
+
+3. Conceitos Básicos de DOM
+Objetivo: Entender os conceitos fundamentais do DOM.
+Tópicos:
+Estrutura de um documento DOM (nós, elementos, atributos, texto).
+Como navegar na árvore DOM.
+Métodos principais da API DOM (como getElementById, getElementsByTagName, etc.).
+
+4. Lendo um Documento XML com DOM
+Objetivo: Aprender a carregar e ler um documento XML usando DOM.
+Tópicos:
+Criar um arquivo XML simples.
+Usar DocumentBuilderFactory e DocumentBuilder para carregar o XML.
+Navegar na árvore DOM e acessar elementos e atributos.
+
+5. Manipulando um Documento XML com DOM
+Objetivo: Aprender a modificar um documento XML existente.
+Tópicos:
+Adicionar, remover e modificar elementos e atributos.
+Criar novos elementos e anexá-los à árvore DOM.
+Salvar as alterações em um novo arquivo XML.
+
+6. Criando um Documento XML com DOM
+Objetivo: Aprender a criar um novo documento XML do zero.
+Tópicos:
+Usar DocumentBuilder para criar um novo documento.
+Adicionar elementos, atributos e texto ao documento.
+Usar Transformer para salvar o documento em um arquivo XML.
+
+7. Tratamento de Exceções
+Objetivo: Compreender como lidar com exceções ao trabalhar com DOM.
+Tópicos:
+Exceções comuns ao usar DOM (como ParserConfigurationException, SAXException, IOException).
+Usar blocos try-catch para tratamento de erros.
+
+8. Validação de XML com DOM
+Objetivo: Aprender a validar um documento XML contra um esquema XSD usando DOM.
+Tópicos:
+O que é validação de XML?
+Usar SchemaFactory e Validator para validar um documento XML.
+Exibir mensagens de erro de validação.
+
+9. Exemplos Práticos
+Objetivo: Aplicar o que foi aprendido em exemplos práticos.
+Tópicos:
+Criar um projeto que lê, modifica e salva um arquivo XML.
+Implementar um CRUD (Create, Read, Update, Delete) simples usando DOM.
+Trabalhar com arquivos XML mais complexos e aninhados.
+
+10. Recursos Adicionais
+Objetivo: Continuar aprendendo e se atualizando sobre DOM.
+Tópicos:
+Documentação oficial do Java sobre a API DOM.
+Livros e tutoriais online sobre XML e DOM.
+Comunidades e fóruns para discutir dúvidas e compartilhar conhecimento.
